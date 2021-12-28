@@ -352,7 +352,7 @@ fieldset[disabled] .btn-theme {
 
 .service .service-icon {
  
-  font-size: 40px;
+  font-size: 54px;
   color: #999caa;
   margin-bottom: 30px;
   margin-right: 5px;
@@ -1022,8 +1022,10 @@ fieldset[disabled] .btn-theme {
     [Row]
 ------------------------------------------------------------------*/
 .row-space-2 {
-  margin-right: -2px;
-  margin-left: -2px;
+  /*margin-right: -100px;*/
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -20px;
 }
 
 .row-space-2 > [class*="col-"] {
