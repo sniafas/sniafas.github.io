@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/k.jpg"
+  header_image = "img/gc.jpg"
   SEOTitle = "Σταύρος Νιάφας | Steve Niafas Webpage"
   description = "Personal webpage"
   keyword = ""
