@@ -1,0 +1,62 @@
+<!--
+{{ $paginator := .Paginate (where (where .Site.Pages "Type" "post") "IsPage" true) }}
+{{ partial "posts.html" . }}
+-->
+<div class="container">
+    <div class="col-lg-2
+                col-md-8 
+                col-sm-12
+                col-xs-12
+                post-container">
+        <h2>Talks</h2>
+    </div>
+
+    
+    <div class="col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container">
+        <h3>Fosscomm 2020</h3>
+        <h5>Photography Style Analysis w/ ML</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6HnHmh-YD48" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+
+
+    
+    <div class="col-lg-8 col-lg-offset-3
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container">
+        <h3>Fosscomm 2021</h3>
+        <h5>Real-world MLOps with open source</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n4ywiEQ99xg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <h5>MLOps in practice w/ MLFlow</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O0qtdrsxp9k" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="col-lg-8 col-lg-offset-3
+                    col-md-8 col-md-offset-1
+                    col-sm-12
+                    col-xs-12
+                    post-container">
+        <h3>Fosscomm 2022</h3>
+        <h5>Democratizing ML</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFKvSmmP-U0" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
