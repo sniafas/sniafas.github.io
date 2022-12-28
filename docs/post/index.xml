@@ -5,18 +5,15 @@
     <link>https://sniafas.eu/post/</link>
     <description>Recent content in Posts on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sniafas.eu/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sniafas.eu/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A new /home</title>
       <link>https://sniafas.eu/post/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sniafas.eu/post/readme/</guid>
-      <description>It&amp;rsquo;s called Hugo Hi fellow reader. After many years of having a regular html page now it&amp;rsquo;s time for something new. Moving myself just a bit away from the comfort zone, had to try this Hugo framework :)</description>
+      <description>It&amp;rsquo;s called Hugo Hi fellow reader. After many years of having a regular html page now it&amp;rsquo;s time for something new. Moving myself just a bit away from the comfort zone, had to try this Hugo framework.
+Cheers :)</description>
     </item>
     
   </channel>
