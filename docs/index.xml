@@ -5,7 +5,11 @@
     <link>https://sniafas.eu/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sniafas.eu/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://sniafas.eu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>A new /home</title>
       <link>https://sniafas.eu/post/readme/</link>
