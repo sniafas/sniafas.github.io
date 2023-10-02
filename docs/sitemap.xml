@@ -3,27 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sniafas.eu/post/readme/</loc>
-  </url>
-  
-  <url>
     <loc>https://sniafas.eu/categories/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sniafas.eu/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sniafas.eu/categories/posts/</loc>
+    <loc>https://sniafas.eu/post/notes-for-a-successful-ds-internship/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sniafas.eu/post/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sniafas.eu/tags/tag1/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sniafas.eu/tags/tag2/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sniafas.eu/tags/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sniafas.eu/categories/tech/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sniafas.eu/post/readme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sniafas.eu/categories/posts/</loc>
   </url>
   
 </urlset>
