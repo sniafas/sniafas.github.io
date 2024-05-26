@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sniafas.eu/post/readme/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://sniafas.eu/tags/bash/</loc>
+  </url><url>
     <loc>https://sniafas.eu/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://sniafas.eu/post/linux_intel_turbo_boost/</loc>
+  </url><url>
     <loc>https://sniafas.eu/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://sniafas.eu/tags/intel/</loc>
+  </url><url>
+    <loc>https://sniafas.eu/tags/linux/</loc>
+  </url><url>
     <loc>https://sniafas.eu/categories/posts/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sniafas.eu/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sniafas.eu/tags/</loc>
+  </url><url>
+    <loc>https://sniafas.eu/tags/turbo-boost/</loc>
   </url>
-  
 </urlset>

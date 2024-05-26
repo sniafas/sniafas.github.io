@@ -5,11 +5,7 @@
     <link>https://sniafas.eu/categories/posts/</link>
     <description>Recent content in Posts on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sniafas.eu/categories/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sniafas.eu/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A new /home</title>
       <link>https://sniafas.eu/post/readme/</link>
@@ -18,6 +14,16 @@
       <guid>https://sniafas.eu/post/readme/</guid>
       <description>It&amp;rsquo;s called Hugo Hi fellow reader. After many years of having a regular html page now it&amp;rsquo;s time for something new. Moving myself just a bit away from the comfort zone, had to try this Hugo framework.
 Cheers :)</description>
+    </item>
+    
+    <item>
+      <title>Enable Intel&#39;s Turbo boost in Linux</title>
+      <link>https://sniafas.eu/post/linux_intel_turbo_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sniafas.eu/post/linux_intel_turbo_boost/</guid>
+      <description>Got yourself a new Intel CPU but realized that something is not running as fast it should in your GNU/Linux machine? This post is what you need!
+The problem comes into surface when you decide to fire up all the available CPU processing cores. If you are curious enough and have switched on the running frequencies on the htop (or your favourite resources monitor tool), you would probably see, that your CPU runs pretty much in half speed, even if all cores are running in 100%.</description>
     </item>
     
   </channel>

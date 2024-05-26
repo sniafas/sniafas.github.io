@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Enable Intel&#39;s Turbo boost in Linux" />
+    <meta property="og:title" content="Enable Intel&#39;s Turbo boost in Linux" />
+    <meta property="twitter:title" content="Enable Intel&#39;s Turbo boost in Linux" />
     
 
     
@@ -35,9 +34,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Home | Σταύρος Νιάφας | Steve Niafas Webpage</title>
+    <title>Enable Intel&#39;s Turbo boost in Linux | Σταύρος Νιάφας | Steve Niafas Webpage</title>
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/post/linux_intel_turbo_boost/">
 
     
     
@@ -167,13 +166,45 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/gc.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/gauges.png')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/linux" title="linux">
+                            linux
+                        </a>
+                        
+                        <a class="tag" href="/tags/intel" title="intel">
+                            intel
+                        </a>
+                        
+                        <a class="tag" href="/tags/turbo-boost" title="turbo boost">
+                            turbo boost
+                        </a>
+                        
+                        <a class="tag" href="/tags/bash" title="bash">
+                            bash
+                        </a>
+                        
+                    </div>
+                    <h1>Enable Intel&#39;s Turbo boost in Linux</h1>
                     
-		    <span class="subheading"></span>
+                    <span class="meta">
+                        
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -182,96 +213,92 @@
 
 
 
-<div class="container">
-  <div class="col-lg-2
-            col-md-8 
-            col-sm-12
-            col-xs-12
-            post-container">
-    <h2>Short Bio</h2>
-  </div>
-  <div class="col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container">
-    <p>Stavros Niafas has a major in Informatics Engineering while he also holds two Msc's, in Data Science and in Image
-      Synthesis & Multimedia.
-      As a professional ML practitioner has demonstrated experience in both R&D and production settings, from driving
-      ML experiments and PoC's into mature codebases to support e2e ML pipelines and systems.
-      Stavros is a results oriented individual and perceives his craft as a mean to achieve a certain goal. While he
-      keeps a high sense of ownership, he is genuinely dedicated to promote and establish a healthy AI culture within
-      the teams
-      and bridge the gap between technical complexity to non-technical audiences.
-      Stavros is also actively engaged in FLOSS contributions, MLOps and systems engineering with strong foundations in
-      Linux environments.
 
-      In analogue world, photography is his passion and vinyl collection his secret affair.
-    </p>
-    <a href="files/sniafas_cv.pdf" class="btn-theme"><b>Resume</b></a>
-    <span>Updated: 01/2024</span>
-  </div>
-</div>
-<hr>
+<article>
+    <div class="container">
+        <div class="row">
 
-<div class="container">
-    <div class="col-lg-2
-                col-md-8 
-                col-sm-12
-                col-xs-12
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
                 post-container">
-        <h2>Talks</h2>
+
+                
+                <p>Got yourself a new Intel CPU but realized that something is not running as fast it should in your GNU/Linux machine?
+This post is what you need!</p>
+<p>The problem comes into surface when you decide to fire up all the available CPU processing cores. If you are curious enough and have switched on the running frequencies on the htop (or your favourite resources monitor tool), you would probably see, that your CPU runs pretty much in half speed, even if all cores are running in 100%.</p>
+<p>
+  <img src="/img/boost_off.png" alt="desc">
+
+</p>
+<p>If you have stumbled upon many q&amp;a&rsquo;s proposing to modprobe or install some packages on top, then you don&rsquo;t actually need anything but the following simple command.</p>
+<pre tabindex="0"><code>sudo -i
+cat /sys/devices/system/cpu/intel_pstate/no_turbo
+&gt; 1 (disabled)
+echo &quot;0&quot; | tee /sys/devices/system/cpu/intel_pstate/no_turbo
+&gt; 0 (enabled)
+</code></pre><p>This is a double negative one so &ldquo;1&rdquo; stands for disabled. You only need to alter the value to &ldquo;0&rdquo; and here it is.</p>
+<p>
+  <img src="/img/boost_on.png" alt="desc">
+
+</p>
+<p>You are running at full speed! 🚀</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    
+                    <li class="next">
+                        <a href="/post/readme/" data-toggle="tooltip" data-placement="top" title="A new /home">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
     </div>
-
-    
-    <div class="col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container">
-        <h3>Fosscomm 2020</h3>
-        <h5>Photography Style Analysis w/ ML</h5>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6HnHmh-YD48" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </div>
-
-
-
-    
-    <div class="col-lg-8 col-lg-offset-3
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container">
-        <h3>Fosscomm 2021</h3>
-        <h5>Real-world MLOps with open source</h5>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/n4ywiEQ99xg" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <h5>MLOps in practice w/ MLFlow</h5>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/O0qtdrsxp9k" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-
-    <div class="col-lg-8 col-lg-offset-3
-                    col-md-8 col-md-offset-1
-                    col-sm-12
-                    col-xs-12
-                    post-container">
-        <h3>Fosscomm 2022</h3>
-        <h5>Democratizing ML</h5>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFKvSmmP-U0" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </div>
-</div>
+</article>
 
 
 
