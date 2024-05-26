@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
-    <link>https://sniafas.eu/</link>
-    <description>Recent content on Home</description>
+    <title>intel on Home</title>
+    <link>https://sniafas.eu/tags/intel/</link>
+    <description>Recent content in intel on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sniafas.eu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A new /home</title>
-      <link>https://sniafas.eu/post/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sniafas.eu/post/readme/</guid>
-      <description>It&amp;rsquo;s called Hugo Hi fellow reader. After many years of having a regular html page now it&amp;rsquo;s time for something new. Moving myself just a bit away from the comfort zone, had to try this Hugo framework.
-Cheers :)</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://sniafas.eu/tags/intel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable Intel&#39;s Turbo boost in Linux</title>
       <link>https://sniafas.eu/post/linux_intel_turbo_boost/</link>
