@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bash on Home</title>
-    <link>https://sniafas.eu/tags/bash/</link>
+    <link>https://sniafas.github.io/tags/bash/</link>
     <description>Recent content in bash on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sniafas.eu/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://sniafas.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable Intel&#39;s Turbo boost in Linux</title>
-      <link>https://sniafas.eu/post/linux_intel_turbo_boost/</link>
+      <link>https://sniafas.github.io/post/linux_intel_turbo_boost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sniafas.eu/post/linux_intel_turbo_boost/</guid>
+      <guid>https://sniafas.github.io/post/linux_intel_turbo_boost/</guid>
       <description>Got yourself a new Intel CPU but realized that something is not running as fast it should in your GNU/Linux machine? This post is what you need!
 The problem comes into surface when you decide to fire up all the available CPU processing cores. If you are curious enough and have switched on the running frequencies on the htop (or your favourite resources monitor tool), you would probably see, that your CPU runs pretty much in half speed, even if all cores are running in 100%.</description>
     </item>

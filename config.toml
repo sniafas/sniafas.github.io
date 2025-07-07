@@ -1,4 +1,4 @@
-baseurl = "https://sniafas.eu"
+baseurl = "https://sniafas.github.io"
 title = "Home"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"

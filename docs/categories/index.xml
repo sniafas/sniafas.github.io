@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Home</title>
-    <link>https://sniafas.eu/categories/</link>
+    <link>https://sniafas.github.io/categories/</link>
     <description>Recent content in Categories on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sniafas.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://sniafas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://sniafas.eu/categories/posts/</link>
+      <link>https://sniafas.github.io/categories/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sniafas.eu/categories/posts/</guid>
+      <guid>https://sniafas.github.io/categories/posts/</guid>
       <description></description>
     </item>
     
